@@ -15,9 +15,9 @@ public class Main {
         String col2Heading = "Quantity";
         String col3Heading = "Price";
 
-        System.out.printf("%s %s %s%n", col1Heading, col2Heading, col3Heading);
-        System.out.printf("%s %d %d cents%n", apples, appleQuantity, applePrice);
-        System.out.printf("%s %d %d cents%n", oranges, orangeQuantity, orangePrice);
+        System.out.printf("%-12s %8s %6s%n", col1Heading, col2Heading, col3Heading);
+        System.out.printf("%-12s %8d %6d cents%n", apples, appleQuantity, applePrice);
+        System.out.printf("%-12s %8d %6d cents%n", oranges, orangeQuantity, orangePrice);
 
     }
 }
